@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import MovieCard from '../MovieCard/Moviecard';
+import MovieCard from '../MovieCard/MovieCard';
 import css from '../MovieList/MovieList.module.css'
 
 export default function MovieList({ movies }) {
