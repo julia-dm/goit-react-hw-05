@@ -1,0 +1,15 @@
+.castList{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 10px;
+    justify-content: center;
+
+    margin-bottom: 20px;
+}
+.castDescr{
+    align-items: center; 
+  justify-content: center; 
+  display: flex;
+}

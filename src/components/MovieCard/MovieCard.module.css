@@ -1,0 +1,21 @@
+.movieTitle{
+    width: 200px;
+    padding-top: 8px;
+    
+}
+
+
+.movieCard{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 200px;
+    height: 355px;
+    transition: transform 0.2s ;
+
+    
+}
+.movieCard:hover{
+    transform: scale(1.1);
+}

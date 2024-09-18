@@ -1,0 +1,80 @@
+.btnBack {
+    cursor: pointer;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  text-align: center;
+  text-decoration: none;
+  width: 100px;
+  margin: 10px;
+  padding: 5px;
+  border: none;
+  background: transparent;
+  border-radius: 4px;
+  outline:  black solid 1px;
+  font-size: 12px;
+  color: black;
+  }
+  
+  .btnBack:hover {
+    background: #4e75ff;
+    color: aliceblue;
+  }
+  .detailsDescr{
+ margin-left: 20px;
+  }
+.deatails{
+
+  display: flex;
+   align-items: flex-start;;
+}
+.additionalInfo{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    list-style: none;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+    color: black;
+}
+.additionalTitle{
+  font-size: 15px;
+}
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500
+
+}
+
+.active {
+  cursor: pointer;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  text-align: center;
+  text-decoration: none;
+  width: 90px;
+  margin: 10px;
+  padding: 5px;
+  border: none;
+  background: transparent;
+  border-radius: 4px;
+  background: #4e75ff;
+  color: aliceblue;
+}
+.navLink{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid black;
+
+}
