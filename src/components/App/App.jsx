@@ -4,7 +4,7 @@ import Navigation from '../Navigation/Navigation';
 import './App.css';
 
 const HomePage = lazy(() => import("../../pages/HomePage/HomePage"));
-const MoviePage = lazy(() => import("../../pages/MoviePage/MoviePage"));
+const MoviePage = lazy(() => import('../../pages/MoviesPage/MoviesPage'));
 const MovieDetailsPage = lazy(() => import("../../pages/MovieDetailsPage/MovieDetailsPage"));
 const NotFound = lazy(() => import("../../pages/NotFoundPage/NotFoundPage"));
 const MovieCast = lazy(() => import("../MovieCast/MovieCast"));

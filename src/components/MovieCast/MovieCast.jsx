@@ -3,7 +3,8 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { getMovieCast } from '../../services/movie-api';
 import css from '../MovieCast/MovieCast.module.css'
-export default function MovieDetails() {
+
+export default function MovieCast() {
   const { movieId } = useParams();
   const [cast, setCast] = useState([]);
 
@@ -40,6 +41,6 @@ export default function MovieDetails() {
   );
 }
 
-MovieDetails.propTypes = {
+MovieCast.propTypes = {
   movieId: PropTypes.string,
 };
